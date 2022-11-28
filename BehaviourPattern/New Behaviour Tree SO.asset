@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3474163279177890039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b41a5880c3418fa31ef5d67850d25f, type: 3}
+  m_Name: Output Port Node
+  m_EditorClassIdentifier: 
+  <NodePosition>k__BackingField: {x: 137, y: 225}
+  <Guid>k__BackingField: 1e0445d5-e1cd-4c3c-a842-7f7b49df4786
+  <Parent>k__BackingField: {fileID: 0}
+  <Children>k__BackingField:
+  - {fileID: 2736467613380859536}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d8d32fee06540eca76f96d062291480, type: 3}
+  m_Name: New Behaviour Tree SO
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3474163279177890039}
+  - {fileID: 2736467613380859536}
+--- !u!114 &2736467613380859536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b41a5880c3418fa31ef5d67850d25f, type: 3}
+  m_Name: Output Port Node
+  m_EditorClassIdentifier: 
+  <NodePosition>k__BackingField: {x: 369, y: 353}
+  <Guid>k__BackingField: e6aeb99b-9a6a-4310-83dd-696aa8caf9b4
+  <Parent>k__BackingField: {fileID: -3474163279177890039}
+  <Children>k__BackingField: []
